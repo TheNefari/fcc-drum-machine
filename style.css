@@ -1,0 +1,49 @@
+#wrapper {
+  background-color: #40bf55;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#drum-machine {
+  background-color: #b8e0be;
+  border: 2px solid #1a4d22;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#pad-field {
+  display: grid;
+  grid: ". . .";
+  grid-gap: .5em;
+}
+
+.drum-pad {
+  padding: 1em;
+  font-size: 1.5em;
+  background-color: #e3e8e4;
+  border: 2px solid #40bf55;
+  text-decoration: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+#display {
+  background-color: #1f4725;
+  color: #b8e0be;
+  margin-left: 2em;
+  height: 3em;
+  width: 6em;
+  display: flex;
+  justify-content: center;
+  line-height: 3em;
+}
+
+#creator {
+  margin-top: 1em;
+}
